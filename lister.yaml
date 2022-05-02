@@ -21,4 +21,4 @@ spec:
   securityModel: XFP
   hostBinding:
     namespace:
-      from: SELF   # See below
+      from: SELF  

@@ -7,4 +7,4 @@ spec:
   prefix: /backend/
   service: quote
   docs:
-    path: "/.ambassador-internal/openapi-docs"
+    path: "/.ambassador-internal/openapi-do"

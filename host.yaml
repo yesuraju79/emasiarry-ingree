@@ -1,0 +1,12 @@
+---
+apiVersion: getambassador.io/v3alpha1
+kind: Host
+metadata:
+  name: foo-host
+spec:
+  hostname: "foo.example.com"
+  tlsSecret:
+    name: foo-secret
+  requestPolicy:
+    insecure:
+      action: Redirect
